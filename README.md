@@ -14,4 +14,4 @@ Demo accounts: `report` / `123` and `find` / `123`, or sign up. Use two browsers
 Demo-only: passwords are plain text in `data/users.json` and sessions are in memory. 
 
 ## Note
-The api key to gemma is removed, as per GitHub guidelines. (For testing, use AQ.Ab8RN6JHe2cNJdInq5BpoVWN2dMV8NIW4-OYW2Lvmvu71IXocw)
+The api key to gemma is removed, as per GitHub guidelines. Please use your own.
