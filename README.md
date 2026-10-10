@@ -1,5 +1,5 @@
 ## Run
-1. Install Node.js, then in this folder: `npm install`
+1. Install Node.js, then in this folder: `npm install @google/genai@latest`
 2. Copy `.env.example` to `.env` and set `GEMINI_API_KEY` (optional: without it the site works with basic matching and no photo AI).
 3. `npm start` and open http://localhost:3000 (do not open the HTML file directly).
 
