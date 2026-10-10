@@ -11,8 +11,7 @@ Demo accounts: `report` / `123` and `find` / `123`, or sign up. Use two browsers
 - `store.js` — reports, claims, approvals, private finder contact (`/api/store/...`, `/api/ai/match`); data saved to `data/store.json`
 - A finder's contact details are only released to the claimant after the finder approves.
 
-Demo-only: passwords are plain text in `data/users.json` and sessions are in memory. Replace both before any public deployment.
-The old routes (`/api/items`, `/api/dashboard`, `/api/verifications`) from the previous version remain in `server.js` but the new UI does not use them.
+Demo-only: passwords are plain text in `data/users.json` and sessions are in memory. 
 
 ## Note
 The api key to gemma is removed, as per GitHub guidelines. (For testing, use AQ.Ab8RN6JHe2cNJdInq5BpoVWN2dMV8NIW4-OYW2Lvmvu71IXocw)
