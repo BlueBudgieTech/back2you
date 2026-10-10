@@ -1,8 +1,3 @@
-# Back2You (merged)
-
-The new Back2You interface (`public/index.html`) running on the Node backend:
-login/signup, saved reports, claims and approvals, and Gemini AI (photo description and SmartMatch).
-
 ## Run
 1. Install Node.js, then in this folder: `npm install`
 2. Copy `.env.example` to `.env` and set `GEMINI_API_KEY` (optional: without it the site works with basic matching and no photo AI).
@@ -18,3 +13,6 @@ Demo accounts: `report` / `123` and `find` / `123`, or sign up. Use two browsers
 
 Demo-only: passwords are plain text in `data/users.json` and sessions are in memory. Replace both before any public deployment.
 The old routes (`/api/items`, `/api/dashboard`, `/api/verifications`) from the previous version remain in `server.js` but the new UI does not use them.
+
+## Note
+The api key to gemma is removed, as per GitHub guidelines. (For testing, use AQ.Ab8RN6JHe2cNJdInq5BpoVWN2dMV8NIW4-OYW2Lvmvu71IXocw)
